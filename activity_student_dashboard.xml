@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <Button android:id="@+id/leaveBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Leave Request"/>
+
+    <Button android:id="@+id/complaintBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Complaint"/>
+
+    <Button android:id="@+id/menuBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mess Menu"/>
+
+    <Button android:id="@+id/announcementBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Announcements"/>
+</LinearLayout>
