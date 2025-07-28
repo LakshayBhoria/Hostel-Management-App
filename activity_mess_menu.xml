@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <EditText android:id="@+id/dayInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Day"/>
+
+    <EditText android:id="@+id/breakfastInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Breakfast"/>
+
+    <EditText android:id="@+id/lunchInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lunch"/>
+
+    <EditText android:id="@+id/dinnerInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Dinner"/>
+
+    <Button android:id="@+id/saveMenuBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Menu"/>
+</LinearLayout>
