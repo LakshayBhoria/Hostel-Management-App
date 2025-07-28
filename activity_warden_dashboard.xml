@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <Button android:id="@+id/manageLeavesBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manage Leaves"/>
+
+    <Button android:id="@+id/manageComplaintsBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manage Complaints"/>
+
+    <Button android:id="@+id/manageMenuBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manage Mess Menu"/>
+
+    <Button android:id="@+id/postAnnouncementBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Post Announcement"/>
+</LinearLayout>
