@@ -1,0 +1,25 @@
+HostelEase/
+│── app/
+│   ├── src/main/
+│   │   ├── java/com/example/hostelease/
+│   │   │   ├── LoginActivity.java
+│   │   │   ├── RegisterActivity.java
+│   │   │   ├── StudentDashboardActivity.java
+│   │   │   ├── WardenDashboardActivity.java
+│   │   │   ├── LeaveRequestActivity.java
+│   │   │   ├── ComplaintActivity.java
+│   │   │   ├── AnnouncementActivity.java
+│   │   │   └── MessMenuActivity.java
+│   │   └── res/layout/
+│   │       ├── activity_login.xml
+│   │       ├── activity_register.xml
+│   │       ├── activity_student_dashboard.xml
+│   │       ├── activity_warden_dashboard.xml
+│   │       ├── activity_leave_request.xml
+│   │       ├── activity_complaint.xml
+│   │       ├── activity_announcement.xml
+│   │       └── activity_mess_menu.xml
+│   ├── AndroidManifest.xml
+│   └── google-services.json (from Firebase)
+│── build.gradle
+│── settings.gradle
